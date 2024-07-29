@@ -1,0 +1,89 @@
+:root
+{
+  --color1:#1E202B;
+  --color2:#262936;
+  --color3:#323544;
+}
+
+
+.navbar
+{
+ background-color: var(--color1); 
+}
+body
+{
+  background-color: var(--color1);
+}
+
+
+.shadow__btn {
+  padding: 12px 0px;
+  border: none;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0,140,255);
+  box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
+}
+
+
+
+a
+{
+  text-decoration: none;
+}
+.A2
+{
+  font-size: 9px;
+  color: #BFC1BE;
+}
+
+#ROW
+{
+  max-height: 120vh;
+}
+#SB
+{
+  right: 2%;
+  margin-right: .52rem;
+}
+
+.one-div {
+ 
+  
+  max-height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(156, 145, 145, 0.5);
+  }
+  
+  
+  .BB
+  {
+    height: 100vh;
+    background-image: url(../weatherimgs/window_drops_rain_120467_1280x720.jpg);
+    background-position: center;
+    background-repeat: repeat-y; 
+    object-fit: cover;
+    }
+    .inner
+    {
+      max-height: 500px;
+      background-color: rgba(240, 245, 249,.5);
+      box-shadow: 0 2px 6px rgba(0,0,0.4);
+    }
+  
